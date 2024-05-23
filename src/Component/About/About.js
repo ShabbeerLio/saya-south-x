@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import Aboutimg from "../../Assets/About/about1.jpg"
+import Aboutimg from "../../Assets/About/about.jpg"
 import { Link } from 'react-router-dom'
 
 const About = () => {
@@ -15,18 +15,18 @@ const About = () => {
     return (
         <div className="aboutUs">
             <div className="about-title">
-                <h1>GODREJ JARDINIA</h1>
-                <p>RERA No.: UPRERAPRJ288309/04/2024 </p>
-                <span>3/4 BHK Ultra Luxury Apartments</span>
-                <h4>European-Inspired Architecture</h4>
+                <h1>SAYA SOUTH X</h1>
+                <p>RERA No.: UPRERAPRJ17950|09/2023</p>
+                {/* <span>Retail and Shopping</span> */}
+                <h4>Retail and SHOPPING MALL IN GREATER NOIDA WEST</h4>
             </div>
             <div className="about-main">
                 <div className="about-items">
                     <div className="about-left">
                         <div className="about-detail">
-                            <h3>GODREJ JARDINIA NOIDA, Sector 146 Noida Expressway</h3>
-                            <p>Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics. Set against the backdrop of Sector-146 in Noida, this development embodies the essence of sophistication and elegance. Inspired by the timeless charm of European architecture and design, every aspect of Godrej Jardinia is meticulously curated to evoke a sense of opulence and refinement.</p>
-                            <p>From its grand façade adorned with intricate detailing to its impeccably landscaped gardens reminiscent of European estates, every corner exudes an aura of grandeur. Residents are treated to a lifestyle of unparalleled luxury, with lavish amenities and world-class facilities meticulously integrated into the fabric of the community. With its fusion of European-inspired aesthetics and contemporary comforts, Godrej Jardinia stands as an epitome of indulgent living in the heart of Noida.</p>
+                            <h3>SAYA SOUTH X SHOPPING MALL IN GREATER NOIDA WEST</h3>
+                            <p>A great endeavour from Saya Buildcon, Saya South X is located in Greater Noida West. Saya South X commercial project is a lifestyle destination surrounded by a huge residential zone which create a highly admirable target market for this retail destination. This commercial project features a commercial spaces with ample number of Retail Shops, Lifestyle Retail, Anchor Stores, Gourmet Dining, 6 Screen Multiplex, Business Suites, Smart Offices, Restaurants, Cafes etc. which houses all sorts of entertainment and recreational activities under one roof.</p>
+                            <p>Saya South X retail and shopping segment features a wide collection of retail shops to park all varieties of stores, hyper stores and other branded retail outlets to create a world class shopping destination for the urban societies of Noida. Along with the traditional Saya South X Shopping Mall, this mall also hosts restaurants, bars and cafeterias to suffice the appetite of this city with multi-cuisine delicacies brought from all corners of the globe.</p>
                         </div>
                         <div className="about-button">
                             <a href="/#site-visit" onClick={toTop}>

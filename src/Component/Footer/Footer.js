@@ -22,7 +22,7 @@ const Footer = (props) => {
                     </div>
 
                     <div className="footer-item">
-                        <p>Godrej Jardinia RERA No.: UPRERAPRJ288309/04/2024 </p>
+                        <p>Saya South X RERA No.: UPRERAPRJ17950|09/2023 </p>
                         {/* <h3>Contact Us</h3> */}
                         {/* <ul>
                             <li>
@@ -53,7 +53,7 @@ const Footer = (props) => {
                         </ul> */}
                     </div>
                     <div className="footer-item">
-                        <p>Plot No - GH04 A, Near Noida-Greater Noida Expy, Sector 146, Noida, Uttar Pradesh 201310</p>
+                        <p>Plot No. C-01, Sector Ecotech-12, Greater Noida - 201306, Distt. Gautam Budh Nagar, U.P.</p>
                     </div>
                     <div className="footer-item">
                         <p>info@godrejjardiniaa.com</p>
@@ -88,7 +88,7 @@ const Footer = (props) => {
             </div>
             <div className="footer-down">
                 <div className="footer-copyright">
-                    <p>©2024. Godrej Jardinia Noida All Rights Reserved. Disclaimer: This website is intended for informational purposes only and should not be considered the official site.</p>
+                    <p>©2024. Saya South X Noida All Rights Reserved. Disclaimer: This website is intended for informational purposes only and should not be considered the official site.</p>
                     {/* <p>Designed by :<Link href="https://globalitsources.com/">&#160; Global IT Sources</Link></p> */}
                 </div>
             </div>

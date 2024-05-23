@@ -16,15 +16,27 @@
   margin-bottom: 2rem;
   color: white;
 }
-.plans-box {
+/* .plans-box {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-}
+} */
 .Plans-main img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   cursor: pointer;
+  border-radius: 8px;
+}
+
+.plans-box2{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-bottom: 3rem;
+}
+
+.plans-card{
+  margin: 10px;
 }
 
 .plans-card-title {
@@ -39,6 +51,27 @@
     margin-top: 1rem;
     font-size: 25px;
     font-weight: 500;
+}
+
+.plans-box .owl-nav button {
+  background-color: white !important;
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 25px !important;
+}
+.plans-box .owl-nav button.owl-prev {
+  position: absolute;
+  top: 50%;
+  left: -1%;
+}
+.plans-box .owl-nav button.owl-next {
+  position: absolute;
+  top: 50%;
+  right: -1%;
 }
 
 @media (min-width: 1200px) {

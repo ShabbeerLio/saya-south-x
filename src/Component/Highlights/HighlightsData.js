@@ -1,27 +1,31 @@
 const HighlightsData = [
     {
-        id: 1,
-        detail: "Experience the charm of European aesthetics with meticulously designed residences",
-    },
-    {
         id: 2,
-        detail: "Indulge in a lifestyle of opulence with lavish amenities",
+        detail: "Spread Over 12000 Sq. M.",
     },
     {
         id: 3,
-        detail: "Enjoy the convenience of living in Sector-146, Noida, with seamless connectivity to major hubs",
+        detail: "3 Side Open Plot",
     },
     {
         id: 4,
-        detail: "Embrace a sustainable lifestyle surrounded by lush greenery, landscaped gardens.",
-    },
-    {
-        id: 5,
-        detail: "Built to the highest standards of quality and craftsmanship.",
+        detail: "Secured campus CCTV cameras surveillance",
     },
     {
         id: 6,
-        detail: "Elevate your living experience with a host of premium amenities, impeccable design.",
+        detail: "Expected 4,00,000 families in the vicinity",
+    },
+    {
+        id: 8,
+        detail: "15 mins. drive from Pari Chowk, Sec–18 Atta Market, Noida and Indirapuram",
+    },
+    {
+        id: 9,
+        detail: "Within walking distance of residential development of over 2200 acres within 6 km of radius",
+    },
+    {
+        id: 10,
+        detail: "Retail Shops, Lifestyle Retail, Anchor Stores, Gourmet Dining, 6 Screen Multiplex, Business Suites, Smart Offices",
     },
 ]
 

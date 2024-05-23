@@ -14,7 +14,7 @@
   height: 90vh;
   width: 100%;
   object-fit: cover;
-  filter: brightness(70%);
+  filter: brightness(90%);
 }
 .banner {
   margin-top: 75px;
@@ -46,7 +46,7 @@
   font-size: 40px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #e6b16a;
+  color: #D8B672;
 }
 .banner-stick-box h5{
   margin: 10px 0px;
@@ -59,7 +59,7 @@
 .banner-stick-box p span{
   font-size: 35px;
   font-weight: 500;
-  color: #e6b16a;
+  color: #D8B672;
 }
 
 @media only screen and (max-width: 680px) {

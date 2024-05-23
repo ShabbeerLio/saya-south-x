@@ -25,6 +25,9 @@
   padding-bottom: 20px;
   align-items: center;
 }
+.highlights-left ul li:last-child{
+  padding-bottom: 0px;
+}
 .highlights-left ul li p{
   margin: 0;
 }

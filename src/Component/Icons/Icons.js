@@ -10,8 +10,9 @@ const Icons = () => {
                     {IconData.map((item) => (
                         <>
                             <div className="icon-card" key={item.id}>
-                                <img src={item.cover} alt="" />
-                                <p>{item.title}</p>
+                                {item.cover}
+                                <h4>{item.title}</h4>
+                                <p>{item.title2}</p>
                             </div>
                         </>
                     ))}

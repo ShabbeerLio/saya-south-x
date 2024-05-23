@@ -1,33 +1,28 @@
+import { RiBuilding2Line ,RiTrophyLine  ,RiGlobalFill ,RiHeart2Line  } from "react-icons/ri";
 const IconData = [
     {
         id: 1,
-        cover: require("../../Assets/Icons/icon1.png"),
-        title:"Indoor All-Weather-Controlled Pool",
-        altTag:"GODREJ JARDINIA"
+        cover: <RiBuilding2Line/>,
+        title:"2 Decades",
+        title2:"of Delivery Excellence"
     },
     {
         id: 2,
-        cover: require("../../Assets/Icons/icon2.png"),
-        title:"Luxe Spa And Salon",
-        altTag:"GODREJ JARDINIA Sector 146"
+        cover: <RiTrophyLine  />,
+        title:"3,000 +",
+        title2:"Happy Families"
     },
     {
         id: 3,
-        cover: require("../../Assets/Icons/icon3.png"),
-        title:"Kids’ Pool Area",
-        altTag:"GODREJ JARDINIA NOIDA"
+        cover: <RiGlobalFill />,
+        title:"5.7 M Sq.Ft.",
+        title2:"Families Nearby"
     },
     {
         id: 4,
-        cover: require("../../Assets/Icons/icon4.png"),
-        title:"Gym",
-        altTag:"GODREJ JARDINIA NOIDA, Sector 146"
-    },
-    {
-        id: 5,
-        cover: require("../../Assets/Icons/icon5.png"),
-        title:"Banquet Hall",
-        altTag:"GODREJ JARDINIA Noida Expressway"
+        cover: <RiHeart2Line />,
+        title:"6 Developments",
+        title2:"In Residential & Commercial"
     },
 ]
 
