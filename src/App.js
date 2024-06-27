@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Home from "./Pages/Home/Home";
 import Navbar from "./Component/Navbar/Navbar";
 import Footer from "./Component/Footer/Footer";
+import Disclaimer from "./Pages/Disclaimer/Disclaimer";
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home title={"Saya South X"} descriptions={""} />} />
+          <Route path="/disclaimer/" exact element={<Disclaimer title={"Saya South X"} descriptions={""} />} />
         </Routes>
         <Footer />
       </BrowserRouter>
